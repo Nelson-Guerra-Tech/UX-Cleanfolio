@@ -1,4 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+	/* Font Properties */
+	--primary-font: Lato, sans-serif;
+	--secondary-font: Poppins, sans-serif;
+	--third-font: Roboto, sans-serif;
+
+	--font-bold: bold;
+	--font-lighter: lighter;
+	--text-decoration-none: none;
+	--text-align-left: left;
+	--text-align-right: right;
+	--text-decoration-none: none;
+
+	/* Colors */
+
+
+	/* Pixels */
+	--pixel-1px: 1px;
+
+	/* FlexBox */
+	--display-flex: flex;
+	--justify-content-start: flex-start;
+	--justify-content-center: center;
+	--justify-content-end: end;
+	--justify-content-space-around: space-around;
+	--justify-content-space-between: space-between;
+	--justify-content-space-evenly: space-evenly;
+	--align-items-start: flex-start;
+	--align-items-center: center;
+	--align-items-end: flex-end;
+	--align-contents-start: flex-start;
+	--align-contents-center: center;
+	--align-contents-end: flex-end;
+	--flex-direction-column: column;
+	--flex-direction-row: row;
+	--flex-wrap: wrap;
+
+	/* Grid */
+	--display-grid: grid;
+
+	/* Box Model Properties */
+	--display-block: block;
+	--display-none: none;
+	--overflow-hidden: hidden;
+	--visibility-visible: visible;
+	--visibility-hidden: hidden;
+	--position-absolute: absolute;
+	--border-sizing-border-box: border-box;
+
+	/* Transitions */
+	--scroll-behavior-smooth: smooth;
+
+}
