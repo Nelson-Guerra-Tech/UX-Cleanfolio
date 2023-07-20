@@ -9,6 +9,8 @@ import { MobileToggleComponent } from './components/navbar/mobile-toggle/mobile-
 import { PortfolioSectionComponent } from './components/portfolio-section/portfolio-section.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { AboutPageComponent } from './components/about-page/about-page.component';
+import { ContactPageComponent } from './components/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HomeComponent } from './components/home/home.component';
     MobileToggleComponent,
     PortfolioSectionComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    AboutPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
