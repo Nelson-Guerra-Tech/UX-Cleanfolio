@@ -1,5 +1,7 @@
 .home-container {
   height: var(--height-100-vh);
-  max-width: var(--width-1024-px);
+  max-width: var(--width-1200-px);
   margin: var(--margin-auto);
+  padding: var(--padding-0-px) var(--padding-30-px) var(--padding-0-px)
+    var(--padding-30-px);
 }

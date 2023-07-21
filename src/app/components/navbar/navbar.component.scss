@@ -1,14 +1,12 @@
 .navbar-container {
   display: var(--display-flex);
   align-items: var(--align-items-center);
-  justify-content: var(--justify-content-space-between);
+  gap: var(--gap-1-rem);
   font-family: var(--secondary-font);
   height: var(--height-75-px);
   margin-top: var(--margin-top-10-px);
   margin-bottom: var(--margin-bottom-20-px);
   width: var(--width-100-percent);
-  padding: var(--padding-0-px) var(--padding-20-px) var(--padding-0-px)
-    var(--padding-20-px);
 
   .logo {
     background-color: var(--dark);
@@ -57,11 +55,17 @@
     }
 
     .link:hover {
-      background-color: var(--bg-light-gray);
+      // box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+      // box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+      //   rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+      background: var(--highlight-linear-gradient-pink-blue);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: var(--text-fill-transparent);
     }
   }
 
   @media (min-width: 375px) and (max-width: 768px) {
+    justify-content: var(--justify-content-space-between);
     .logo {
       span {
         a {
@@ -72,6 +76,7 @@
   }
 
   @media (max-width: 374px) {
+    justify-content: var(--justify-content-space-between);
     .logo {
       span {
         a {

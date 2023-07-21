@@ -1,11 +1,11 @@
 .hero-container {
-  padding: var(--padding-100-px) var(--padding-20-px) var(--padding-80-px)
-    var(--padding-20-px);
+  padding: var(--padding-100-px) var(--padding-0-px) var(--padding-100-px)
+    var(--padding-0-px);
   color: var(--dark);
 
   .heading-0 {
     font-size: var(--font-size-20-px);
-    letter-spacing: 0.1rem;
+    letter-spacing: var(--letter-spacing-0-1-rem);
     background: var(--highlight-linear-gradient-pink-blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--text-fill-transparent);
