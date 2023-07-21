@@ -13,8 +13,8 @@
   .logo {
     background-color: var(--dark);
     border-radius: var(--border-radius-10-px);
-    padding: var(--padding-0-px) var(--padding-10-px) var(--padding-0-px)
-      var(--padding-10-px);
+    padding: var(--padding-3-px) var(--padding-12-px) var(--padding-4-px)
+      var(--padding-12-px);
     cursor: var(--cursor-pointer);
 
     span {
@@ -22,6 +22,7 @@
         text-decoration: var(--text-decoration-none);
         font-size: var(--unit-25-px);
         color: var(--white);
+        font-weight: var(--font-weight-500);
       }
     }
   }
@@ -38,14 +39,45 @@
       transition-duration: 0.2s;
       cursor: var(--cursor-pointer);
       a {
-        font-size: var(--font-size-15-px);
+        font-size: var(--font-size-18-px);
         text-decoration: var(--text-decoration-none);
-        color: var(--dark);
+        color: var(--light-text);
+      }
+
+      @media (min-width: 375px) and (max-width: 768px) {
+        a {
+          font-size: var(--font-size-16-px);
+        }
+      }
+      @media (max-width: 374px) {
+        a {
+          font-size: var(--font-size-16-px);
+        }
       }
     }
 
     .link:hover {
       background-color: var(--bg-light-gray);
+    }
+  }
+
+  @media (min-width: 375px) and (max-width: 768px) {
+    .logo {
+      span {
+        a {
+          font-size: var(--font-size-22-px);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 374px) {
+    .logo {
+      span {
+        a {
+          font-size: var(--font-size-22-px);
+        }
+      }
     }
   }
 }

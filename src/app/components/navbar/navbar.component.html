@@ -1,15 +1,19 @@
 <nav class="navbar-container">
   <div class="logo">
     <span>
-      <a routerLink="/" href="#">{{ content.logo }}</a>
+      <a routerLink="/" [innerHTML]="content.logo" href="#"></a>
     </span>
   </div>
   <div class="navbar-links">
     <div class="link">
-      <a routerLink="about" href="#">About</a>
+      <a routerLink="about" [innerHTML]="content.links.url.about" href="#"></a>
     </div>
     <div class="link">
-      <a routerLink="contact" href="#">Contact</a>
+      <a
+        routerLink="contact"
+        [innerHTML]="content.links.url.contact"
+        href="#"
+      ></a>
     </div>
   </div>
 </nav>
