@@ -5,9 +5,10 @@ export interface Navbar {
 
 export interface Link {
   url: {
-    home: 'Home';
-    about: 'About';
-    contact: 'Contact';
+    home?: 'Home';
+    about?: 'About';
+    contact?: 'Contact';
+    readMore?: 'Read More'
   };
   label?: string;
 }
