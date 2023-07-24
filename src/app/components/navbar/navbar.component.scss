@@ -7,6 +7,7 @@
   margin-top: var(--margin-top-10-px);
   margin-bottom: var(--margin-bottom-20-px);
   width: var(--width-100-percent);
+  justify-content: var(--justify-content-space-between);
 
   .logo {
     background-color: var(--dark);
@@ -27,7 +28,6 @@
 
   .navbar-links {
     display: var(--display-flex);
-    gap: var(--gap-10-px);
 
     .link {
       padding: var(--padding-5-px) var(--padding-10-px) var(--padding-5-px)

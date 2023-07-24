@@ -1,3 +1,16 @@
 <section class="portfolio-container">
-  <p>Hello</p>
+  <div class="portfolio" *ngFor="let item of portfolio">
+    <img [src]="item.image.src" [alt]="item.image.alt" />
+    <div class="info">
+      <h2 class="card-title" [innerHTML]="item.info.company"></h2>
+      <div>
+        <p class="card-role" [innerHTML]="item.info.role"></p>
+        <h2 [innerHTML]="item.info.title"></h2>
+        <p [innerHTML]="item.info.description"></p>
+        <button>
+          <a [innerHTML]="item.info.link.label" href="#"></a>
+        </button>
+      </div>
+    </div>
+  </div>
 </section>

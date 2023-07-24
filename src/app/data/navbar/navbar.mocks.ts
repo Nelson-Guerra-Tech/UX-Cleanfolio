@@ -4,7 +4,7 @@ export const NavbarDataMocks: Navbar = {
   logo: "N",
   links: {
     url: {
-      home: "Home",
+      home: "Work",
       about: "About",
       contact: "Contact"
     }

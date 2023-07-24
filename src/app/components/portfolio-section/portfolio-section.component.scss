@@ -1,0 +1,97 @@
+.portfolio-container {
+  display: var(--display-flex);
+  flex-wrap: var(--flex-wrap);
+  flex-direction: var(--flex-direction-column);
+  margin-bottom: var(--margin-bottom-5-rem);
+  gap: var(--gap-1-rem);
+
+  div {
+    max-width: var(--max-width-100-percent);
+    height: var(--height-600-px);
+    overflow: var(--overflow-hidden);
+    border-radius: var(--border-radius-10-px);
+    flex-grow: var(--flex-grow-1);
+
+    img {
+      float: var(--float-left);
+      height: var(--height-600-px);
+      min-width: var(--min-width-100-percent);
+      object-fit: var(--object-fit-cover);
+      transition: all 0.3s var(--transition-ease-in-out);
+    }
+
+    img:hover {
+      transform: scale(1.2);
+    }
+
+    .info {
+      color: var(--off-white);
+      position: var(--position-absolute);
+      padding: var(--padding-1-5-rem) var(--padding-4-rem) var(--padding-0-px)
+        var(--padding-1-5-rem);
+
+      .card-title {
+        font-size: var(--font-size-1-5-rem);
+        font-weight: var(--font-weight-400);
+      }
+
+      div {
+        margin-top: var(--margin-top-8-rem);
+
+        .card-role {
+          color: var(--bg-light-gray);
+          opacity: var(--opacity-0-8);
+        }
+
+        h2 {
+          max-width: var(--max-width-360-px);
+          font-size: var(--font-size-2-2-rem);
+          padding: var(--padding-1-rem) var(--padding-0-px) var(--padding-1-rem)
+            var(--padding-0-px);
+          font-weight: var(--font-weight-600);
+        }
+
+        p {
+          max-width: var(--max-width-475-px);
+        }
+
+        button {
+          margin-top: var(--margin-top-2-rem);
+          padding: var(--padding-1-rem);
+          border-radius: var(--border-radius-8-px);
+          border-style: var(--border-style-none);
+          cursor: var(--cursor-pointer);
+
+          a {
+            text-decoration: var(--text-decoration-none);
+            color: var(--dark);
+          }
+        }
+      }
+    }
+
+    @media (min-width: 375px) and (max-width: 768px) {
+      .info {
+        div {
+          margin-top: var(--margin-top-8-rem);
+          h2 {
+            font-size: var(--font-size-1-9-rem);
+            max-width: var(--max-width-350-px);
+          }
+        }
+      }
+    }
+
+    @media (max-width: 374px) {
+      .info {
+        div {
+          margin-top: var(--margin-top-8-rem);
+          h2 {
+            font-size: var(--font-size-1-6-rem);
+            max-width: var(--max-width-370-px);
+          }
+        }
+      }
+    }
+  }
+}
