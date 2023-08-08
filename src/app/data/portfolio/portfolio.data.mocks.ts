@@ -8,7 +8,7 @@ export const portfolioDataMocks: Portfolio[] = [
     },
     info: {
       company: 'Apple',
-      role: 'Associate Director',
+      role: 'Lead UX Designer',
       title: "Designing Apple's Digital Brand",
       description: "I've worked on all things digital but my focus now is on charging and trip planning experiences within the mobile app.",
       link: {
@@ -26,7 +26,7 @@ export const portfolioDataMocks: Portfolio[] = [
     },
     info: {
       company: 'Kore',
-      role: 'Product Designer',
+      role: 'Lead UX Designer',
       title: "Improving Workplace Communication",
       description: "In a super early-stage startup, I redesigned a desktop and mobile app to change the way people communicate.",
       link: {
@@ -44,7 +44,7 @@ export const portfolioDataMocks: Portfolio[] = [
     },
     info: {
       company: 'Boosted',
-      role: 'Art Director',
+      role: 'Lead UX Designer',
       title: "Branding An Electric Transportation Co.",
       description: "I lead the creative team at Boosted managing their brand, web design, photography, and filmmaking.",
       link: {

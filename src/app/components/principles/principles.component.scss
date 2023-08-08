@@ -1,3 +1,45 @@
 .principles-section {
   color: var(--dark);
+  display: flex;
+  margin: 5rem 0 5rem 0;
+  gap: 6rem;
+  border-top: 1px solid var(--light-text);
+  padding: 6rem 0 2rem 0;
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .principles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    .principle-description {
+      max-width: 350px;
+
+      h2 {
+        margin-bottom: 1rem;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .principles-section {
+    flex-wrap: wrap;
+    gap: 3rem;
+
+    .principles {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 374px) {
+  .principles-section {
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
 }
